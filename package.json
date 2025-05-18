@@ -1,0 +1,31 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-suryavanshi/NamasteReact.git"
+  },
+  "author": "Sachin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-suryavanshi/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/mr-suryavanshi/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}

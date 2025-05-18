@@ -1,3 +1,16 @@
-#heading {
-    color : red
+.header{
+    display : flex;
+    justify-content : space-between;
+}
+
+.logo{
+    width : 200px;
+}
+.nav-items> ul{
+    display: flex;
+    list-style-type : none
+}
+.nav-items > ul > li{
+    margin: 10px;
+    padding : 2px;
 }
